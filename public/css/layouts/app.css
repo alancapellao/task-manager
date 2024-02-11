@@ -1,0 +1,84 @@
+@import url('../components/menu.css');
+
+@import url('../components/header.css');
+
+@import url('../components/form.css');
+
+@import url('../components/modal.css');
+
+@import url('../components/alert.css');
+
+@import url('../components/dialog.css');
+
+@import url('../components/load.css');
+
+@import url('../components/kanban.css');
+
+@import url('../partials/checkbox-switch.css');
+
+@import url('../libs/calendar.css');
+
+@import url('../libs/date-range-picker.css');
+
+@import url('../libs/quill.css');
+
+@import url('../pages/notes.css');
+
+body,
+p,
+a,
+h1,
+h2,
+ul,
+textarea,
+select,
+input {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        resize: none;
+        user-select: none;
+}
+
+i {
+        display: flex;
+        justify-content: center;
+}
+
+body {
+        display: flex;
+        height: 100vh;
+        overflow: hidden;
+}
+
+main {
+        display: flex;
+        flex: 1;
+        padding: 16px;
+        gap: 20px;
+        background-color: var(--background-color);
+        transition: 0.7s;
+}
+
+input, textarea, select, textarea, div[contenteditable]:focus {
+       border: 1px solid var(--border-color);
+       outline: none;
+}
+
+.container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        transition: 0.7s;
+}
+
+.content {
+        flex: 1;
+        background-color: var(--primary-color);
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        box-shadow: 0px 0px 10px var(--box-shadow-color);
+        padding: 16px;
+}

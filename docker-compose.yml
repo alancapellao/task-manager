@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: app
+    ports:
+      - "3307:3306" # Mapear a porta do MySQL
+    networks:
+      - my-network
+    mem_limit: 2gb # Limitar a memória do container
+    restart: always # Reiniciar o container caso ele pare
+
+  laravel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80" # Mapear a porta da API
+    volumes:
+      - .:/var/www/html # Mapear o código-fonte da API para o container
+    networks:
+      - my-network
+    command: bash -c "chmod 777 -R storage && composer install && /usr/sbin/apache2ctl -D FOREGROUND"
+    depends_on:
+      - db # Dependência do MySQL
+
+networks:
+  my-network:

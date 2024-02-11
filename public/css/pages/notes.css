@@ -1,0 +1,53 @@
+.wall {
+        display: flex;
+        gap: 22px;
+        flex-wrap: wrap;
+}
+
+.note {
+        background-color: #f7f196;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 5px var(--shadow-color);
+        height: 380px;
+        color: #000;
+        width: calc(100% / 3 - 35px);
+        overflow: hidden;
+        word-wrap: break-word;
+}
+
+.note-header {
+        margin-bottom: 10px;
+}
+
+.note-body {
+        overflow: auto;
+}
+
+.note-body::-webkit-scrollbar {
+        width: 2px;
+}
+
+.note-body::-webkit-scrollbar-thumb {
+        background: var(--thumb-color);
+        border-radius: 4px;
+}
+
+.note-add {
+        cursor: pointer;
+        background-color: var(--secondary-color);
+}
+
+.note-add i {
+        flex: 1;
+        font-size: 10vh;
+        align-items: center;
+        color: var(--text-color);
+}
+
+.note:not(.note-add):hover {
+        box-shadow: 4px 4px 10px var(--shadow-color);
+        transform: scale(1.05);
+        transition: 0.3s;
+}

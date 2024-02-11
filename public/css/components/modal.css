@@ -1,0 +1,135 @@
+.modal {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        z-index: 999;
+        justify-content: center;
+        align-items: center;
+}
+
+.modal-hidden {
+        display: none;
+}
+
+.modal-header {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        color: var(--text-color);
+        margin-bottom: 20px;
+        font-size: 18px;
+}
+
+.modal-header i {
+        cursor: pointer;
+}
+
+.modal-content {
+        background: var(--primary-color);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        max-width: 500px;
+        width: 100%;
+        position: relative;
+}
+
+.modal-content form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.modal-content label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+        color: var(--text-color);
+}
+
+.modal-content .input-form {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid var(--border-color);
+        border-radius: 5px;
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+}
+
+.modal-content .btn-form {
+        background: var(--button-color);
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        margin-top: 20px;
+        font-weight: bold;
+}
+
+.modal-content .btn-form:hover {
+        background: var(--hover-color);
+}
+
+.modal .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+        color: var(--text-color);
+}
+
+.picture-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.profile-picture {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        position: relative;
+}
+
+.profile-picture img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+}
+
+.profile-picture input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        cursor: pointer;
+}
+
+.profile-picture input[type="file"]+label {
+        background: #007BFF;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+}
+
+.profile-picture input[type="file"]+label:hover {
+        background: #0056b3;
+}

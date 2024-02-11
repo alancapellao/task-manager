@@ -1,0 +1,121 @@
+$flaticon_app-to-font: "flaticon_app-to";
+
+@font-face {
+    font-family: $flaticon_app-to-font;
+    src: url("./flaticon_app-to.ttf?e6e39bdcc45c269313ec3b9a7f0064ee") format("truetype"),
+url("./flaticon_app-to.woff?e6e39bdcc45c269313ec3b9a7f0064ee") format("woff"),
+url("./flaticon_app-to.woff2?e6e39bdcc45c269313ec3b9a7f0064ee") format("woff2"),
+url("./flaticon_app-to.eot?e6e39bdcc45c269313ec3b9a7f0064ee#iefix") format("embedded-opentype"),
+url("./flaticon_app-to.svg?e6e39bdcc45c269313ec3b9a7f0064ee#flaticon_app-to") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_app-to !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_app-to-map: (
+    "olho": "\f101",
+    "fechar-o-olho": "\f102",
+    "lupa": "\f103",
+    "setting": "\f104",
+    "sign-out": "\f105",
+    "add": "\f106",
+    "monthly-calendar": "\f107",
+    "availability": "\f108",
+    "more": "\f109",
+    "fast-forward": "\f10a",
+    "sticky-note": "\f10b",
+    "do-utilizador": "\f10c",
+    "seta-direita": "\f10d",
+    "lista-de-reproducao": "\f10e",
+    "lua-crescente": "\f10f",
+    "painel-de-controle": "\f110",
+    "pontos": "\f111",
+    "marca-cruzada": "\f112",
+    "simbolo-de-informacao": "\f113",
+    "atencao": "\f114",
+    "fechar": "\f115",
+    "verifica": "\f116",
+    "cruzar": "\f117",
+    "colorir": "\f118",
+);
+
+.flaticon-olho:before {
+    content: map-get($flaticon_app-to-map, "olho");
+}
+.flaticon-fechar-o-olho:before {
+    content: map-get($flaticon_app-to-map, "fechar-o-olho");
+}
+.flaticon-lupa:before {
+    content: map-get($flaticon_app-to-map, "lupa");
+}
+.flaticon-setting:before {
+    content: map-get($flaticon_app-to-map, "setting");
+}
+.flaticon-sign-out:before {
+    content: map-get($flaticon_app-to-map, "sign-out");
+}
+.flaticon-add:before {
+    content: map-get($flaticon_app-to-map, "add");
+}
+.flaticon-monthly-calendar:before {
+    content: map-get($flaticon_app-to-map, "monthly-calendar");
+}
+.flaticon-availability:before {
+    content: map-get($flaticon_app-to-map, "availability");
+}
+.flaticon-more:before {
+    content: map-get($flaticon_app-to-map, "more");
+}
+.flaticon-fast-forward:before {
+    content: map-get($flaticon_app-to-map, "fast-forward");
+}
+.flaticon-sticky-note:before {
+    content: map-get($flaticon_app-to-map, "sticky-note");
+}
+.flaticon-do-utilizador:before {
+    content: map-get($flaticon_app-to-map, "do-utilizador");
+}
+.flaticon-seta-direita:before {
+    content: map-get($flaticon_app-to-map, "seta-direita");
+}
+.flaticon-lista-de-reproducao:before {
+    content: map-get($flaticon_app-to-map, "lista-de-reproducao");
+}
+.flaticon-lua-crescente:before {
+    content: map-get($flaticon_app-to-map, "lua-crescente");
+}
+.flaticon-painel-de-controle:before {
+    content: map-get($flaticon_app-to-map, "painel-de-controle");
+}
+.flaticon-pontos:before {
+    content: map-get($flaticon_app-to-map, "pontos");
+}
+.flaticon-marca-cruzada:before {
+    content: map-get($flaticon_app-to-map, "marca-cruzada");
+}
+.flaticon-simbolo-de-informacao:before {
+    content: map-get($flaticon_app-to-map, "simbolo-de-informacao");
+}
+.flaticon-atencao:before {
+    content: map-get($flaticon_app-to-map, "atencao");
+}
+.flaticon-fechar:before {
+    content: map-get($flaticon_app-to-map, "fechar");
+}
+.flaticon-verifica:before {
+    content: map-get($flaticon_app-to-map, "verifica");
+}
+.flaticon-cruzar:before {
+    content: map-get($flaticon_app-to-map, "cruzar");
+}
+.flaticon-colorir:before {
+    content: map-get($flaticon_app-to-map, "colorir");
+}

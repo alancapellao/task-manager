@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "flaticon_app-to";
+    src: url("./flaticon_app-to.ttf?e6e39bdcc45c269313ec3b9a7f0064ee") format("truetype"),
+url("./flaticon_app-to.woff?e6e39bdcc45c269313ec3b9a7f0064ee") format("woff"),
+url("./flaticon_app-to.woff2?e6e39bdcc45c269313ec3b9a7f0064ee") format("woff2"),
+url("./flaticon_app-to.eot?e6e39bdcc45c269313ec3b9a7f0064ee#iefix") format("embedded-opentype"),
+url("./flaticon_app-to.svg?e6e39bdcc45c269313ec3b9a7f0064ee#flaticon_app-to") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: flaticon_app-to !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye:before {
+    content: "\f101";
+}
+
+.icon-eye-slash:before {
+    content: "\f102";
+}
+
+.icon-search:before {
+    content: "\f103";
+}
+
+.icon-settings:before {
+    content: "\f104";
+}
+
+.icon-sign-out:before {
+    content: "\f105";
+}
+
+.icon-add:before {
+    content: "\f106";
+}
+
+.icon-calendar:before {
+    content: "\f107";
+}
+
+.icon-availability:before {
+    content: "\f108";
+}
+
+.icon-menu:before {
+    content: "\f109";
+}
+
+.icon-upcoming:before {
+    content: "\f10a";
+}
+
+.icon-sticky:before {
+    content: "\f10b";
+}
+
+.icon-profile:before {
+    content: "\f10c";
+}
+
+.icon-trigger:before {
+    content: "\f10d";
+}
+
+.icon-today:before {
+    content: "\f10e";
+}
+
+.icon-mode:before {
+    content: "\f10f";
+}
+
+.icon-dashboard:before {
+    content: "\f110";
+}
+
+.icon-points:before {
+    content: "\f111";
+}
+
+.icon-close:before {
+    content: "\f112";
+}
+
+.icon-info:before {
+    content: "\f113";
+}
+
+.icon-warning:before {
+    content: "\f114";
+}
+
+.icon-error:before {
+    content: "\f115";
+}
+
+.icon-success:before {
+    content: "\f116";
+}
+
+.icon-close-box:before {
+    content: "\f117";
+}
+
+.icon-color:before {
+    content: "\f118";
+}

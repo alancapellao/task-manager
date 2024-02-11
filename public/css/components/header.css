@@ -1,0 +1,147 @@
+.header {
+        color: var(--text-color);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 8px;
+}
+
+.header-title {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+}
+
+.header-title h1 {
+        margin: 0;
+        color: var(--text-color);
+}
+
+.quantity-box {
+        color: var(--text-color);
+        padding: 6px 16px;
+        border-radius: 5px;
+        border: 1px solid var(--border-color);
+        margin-left: 25px;
+        font-size: 36px;
+        background-color: var(--primary-color);
+}
+
+.user-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        border: 1px solid transparent;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 8px 8px 0 0;
+        cursor: pointer;
+        z-index: 2;
+}
+
+.user-container.active {
+        border: 1px solid var(--border-color);
+        border-bottom: 1px solid transparent;
+        background-color: var(--hover-color);
+}
+
+.rotate {
+        transform: rotate(90deg);
+}
+
+.user-info {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+}
+
+.user-info .icon-trigger {
+        transition: 0.5s;
+}
+
+.user-info img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid var(--border-color);
+}
+
+.user-details {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+}
+
+.user-details p {
+        margin: 0;
+}
+
+.user-details p:first-child {
+        font-weight: bold;
+}
+
+.user-details p:last-child {
+        color: var(--text-light-color);
+}
+
+.user-menu-trigger {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+}
+
+.user-menu {
+        display: none;
+        position: absolute;
+        top: 62px;
+        width: 100%;
+        background-color: var(--hover-color);
+        border: 1px solid var(--border-color);
+        border-radius: 0 0 8px 8px;
+}
+
+.user-menu ul {
+        padding: 8px;
+        list-style: none;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        cursor: auto;
+}
+
+.user-menu ul li {
+        text-align: center;
+        display: flex;
+}
+
+.user-menu ul:last-child {
+        border-top: 1px solid var(--border-color);
+}
+
+.user-menu ul li,
+.user-menu ul li a {
+        color: var(--text-color);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+}
+
+.user-menu ul li:not(:has(a)) {
+        cursor: pointer;
+        padding: 10px;
+}
+
+.user-menu ul li a {
+        text-decoration: none;
+        width: 100%;
+        padding: 10px;
+}
+
+.user-menu ul li a:hover,
+.user-menu ul li:not(:has(a)):hover {
+        background-color: var(--accent-color);
+        color: #fff;
+        transition: 0.5s;
+}

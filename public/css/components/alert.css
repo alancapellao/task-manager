@@ -1,0 +1,49 @@
+.alert-box {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 6px;
+        align-items: center;
+}
+
+.alert-box>div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+}
+
+.alert-box i {
+        font-size: 22px;
+}
+
+.alert-box>div span span {
+        font-weight: bold;
+}
+
+.alert-info {
+        background-color: var(--info-color);
+        color: var(--info-text-color);
+}
+
+.alert-error {
+        background-color: var(--error-color);
+        color: var(--error-text-color);
+}
+
+.alert-warning {
+        background-color: var(--warning-color);
+        color: var(--warning-text-color);
+}
+
+
+.alert-success {
+        background-color: var(--success-color);
+        color: var(--success-text-color);
+}
+
+.alert-button-close {
+        cursor: pointer;
+        color: rgba(157, 136, 136, 0.5);
+}
