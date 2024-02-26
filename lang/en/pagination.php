@@ -57,6 +57,7 @@ return [
     'high' => 'High',
     'status' => 'Status',
     'to_do_app' => 'To-Do App',
+    'task_manager' => 'Task Manager',
     'profile_picture' => 'Profile Picture',
     'edit_profile' => 'Edit Profile',
     'email' => 'Email',

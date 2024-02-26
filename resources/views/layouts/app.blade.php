@@ -22,7 +22,7 @@
     <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
     <script src="{{ asset('js/components/lang.js') }}"></script>
 
-    <title>{{ __('pagination.to_do_app') }}</title>
+    <title>{{ __('pagination.task_manager') }}</title>
 </head>
 
 <body>

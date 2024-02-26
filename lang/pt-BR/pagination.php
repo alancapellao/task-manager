@@ -57,6 +57,7 @@ return [
     'high' => 'Alta',
     'status' => 'Status',
     'to_do_app' => 'Aplicativo de Tarefas',
+    'task_manager' => 'Gerenciador de Tarefas',
     'profile_picture' => 'Foto de Perfil',
     'edit_profile' => 'Editar Perfil',
     'email' => 'E-mail',
